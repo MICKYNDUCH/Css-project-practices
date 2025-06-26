@@ -24,12 +24,34 @@
       position: relative;
       /* Adjust to center horizontally */
     }
+    .white.circle {
+      width: 100px;
+      height: 100px;
+      background-color: white;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .text {
+      color: black;
+      font-size: 20px;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
   </style>
 </head>
 
 <body>
   <div class="blue-box">
     <div class="red-circle">
+      <div class="white circle">
+        <div class="text"><p>black text</p></div>
+      </div>
     </div>
   </div>
 

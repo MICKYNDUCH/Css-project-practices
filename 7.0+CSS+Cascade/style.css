@@ -3,6 +3,7 @@
 .box {
   background-color: blue;
   padding: 10px;
+  border: solid 2px black;
 }
 
 p {
@@ -17,6 +18,7 @@ p {
 }
 .box .inner-box {
   background-color: red;
+  border: solid 2px black;
 }
 .white-text {
   color: white;
