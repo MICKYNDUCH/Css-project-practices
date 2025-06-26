@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+}
+
+.motivational-image {
+  width: 100%;
+  border: 5px solid white;
+}
+
+.question {
+  font-family: 'Libre Baskerville', serif;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.quote {
+  font-family: 'Caveat', cursive;
+  color: white;
+  text-align: center;
+}
+#container {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 20px;
+}
