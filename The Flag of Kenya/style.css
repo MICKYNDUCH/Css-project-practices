@@ -1,0 +1,40 @@
+BODY{
+    background-color: blue;
+    height: 200px;
+    width: 400px;
+    position: absolute;
+}
+.black{
+    background-color: black;
+    height: 10%;
+    width: 100%;
+    position: ;
+}
+.white{
+    background-color: white;
+    height: 10px;
+    width: 100%;
+    margin-top: 0px;
+    position: relative;
+    
+}
+.red{
+    background-color: red;
+    height: 100px;
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+}
+.green{
+    background-color: green;
+    height: 100px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    border-color: black;
+
+}
+p {
+    text-align: center;
+    position: relative;
+}
