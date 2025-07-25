@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Components</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <style>
+
+
+  </style>
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1244.0" data-gr-ext-installed="">
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none"> 
+    <symbol id="check2" viewBox="0 0 16 16"> 
+    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path> 
+  </symbol> 
+  <symbol id="circle-half" viewBox="0 0 16 16"> <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"></path> </symbol> 
+  <symbol id="moon-stars-fill" viewBox="0 0 16 16"> <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"></path> 
+    <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"></path> 
+  </symbol> 
+  <symbol id="sun-fill" viewBox="0 0 16 16"> <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"></path> 
+  </symbol> 
+</svg> 
+<div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle"> 
+  <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (dark)"> 
+    <span class="visually-hidden" id="bd-theme-text">Toggle theme</span> 
+  </button> 
+  <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text"> 
+    <li> <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false"> 
+      <svg class="bi me-2 opacity-50" aria-hidden="true"><use href="#sun-fill"></use></svg>
+Light
+<svg class="bi ms-auto d-none" aria-hidden="true"><use href="#check2"></use></svg> 
+</button> 
+</li> 
+<li> 
+  <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="dark" aria-pressed="true"> <svg class="bi me-2 opacity-50" aria-hidden="true"><use href="#moon-stars-fill"></use></svg>
+Dark
+<svg class="bi ms-auto d-none" aria-hidden="true"><use href="#check2"></use></svg> </button> 
+</li> 
+ <li> 
+  <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto" aria-pressed="false"> <svg class="bi me-2 opacity-50" aria-hidden="true"><use href="#circle-half"></use></svg>
+Auto
+<svg class="bi ms-auto d-none" aria-hidden="true"><use href="#check2"></use></svg> 
+</button> 
+</li> 
+</ul> 
+</div>  
+<header data-bs-theme="dark"> 
+  <div class="collapse text-bg-dark" id="navbarHeader"> 
+    <div class="container"> 
+      <div class="row"> 
+        <div class="col-sm-8 col-md-7 py-4"> 
+          <h4>About</h4> 
+          <p class="text-body-secondary">Welcome to our website, where we are on a mission to provide exceptional moving services to customers in the US. As a startup, we believe that moving doesn't have to be stressful or complicated, and we are passionate about making the process as seamless and enjoyable as possible.</p> 
+        </div> 
+        <div class="col-sm-4 offset-md-1 py-4"> 
+          <h4>Contact</h4> 
+          <ul class="list-unstyled"> 
+            <li><a href="#" class="text-white">Follow on X</a></li> 
+            <li><a href="#" class="text-white">Like on Facebook</a></li> 
+            <li><a href="#" class="text-white">Email me</a></li> 
+          </ul> 
+        </div> 
+      </div> 
+    </div> 
+  </div> 
+  <div class="navbar navbar-dark bg-dark shadow-sm"> 
+    <div class="container"> 
+      <a href="./box-seam.svg" class="navbar-brand d-flex align-items-center"> 
+        <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+         <circle cx="12" cy="13" r="4"></circle></svg>
+         <img src="./briefcase.svg" alt="briefcase">
+      <strong>Move It</strong> 
+    </a> 
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> 
+  </div> 
+</div> 
+</header> 
+<main> <section class="py-5 text-center container"> 
+  <div class="row py-lg-5"> 
+    <div class="col-lg-6 col-md-8 mx-auto"> 
+      <h1 class="fw-light">Why Move With Us? </h1> 
+      <p class="lead text-body-secondary">Welcome to our website, where we are on a mission to provide exceptional moving services to customers in the US. As a startup, we believe that moving doesn't have to be stressful or complicated, and we are passionate about making the process as seamless and enjoyable as possible.</p> 
+      <p> <a href="#" class="btn btn-primary my-2">Get A Quote</a> 
+        <a href="#" class="btn btn-secondary my-2">Contact Us</a> 
+      </p> 
+      <img src="./moving-van.jpg" height="300px" width="500px" alt="moving-van">
+    </div> 
+  </div> 
+</section> 
+
+<section>
+<div class="album py-5 bg-body-tertiary"> 
+  <div class="container"> 
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3"> 
+      <div class="col"> 
+        <div class="card shadow-sm"> 
+        <img src="./pasonal moving image.jpg" alt="moving image" height="240px" width="">
+        <h3>Profesionals</h3>
+          <div class="card-body"> 
+            <p class="card-text">Our team of professional movers are trained to prioritize efficiency, organization, and attention to detail. We understand that your possessions are more than just objects - they are a reflection of your life, memories, and experiences. That's why we take extra care to ensure that everything is packed and transported with the utmost care and attention.</p> <div class="d-flex justify-content-between align-items-center"> 
+              <div class="btn-group"> 
+                <button type="button" class="btn btn-sm btn-outline-secondary">Get a Quote</button> 
+                
+              </div>
+            </div> 
+          </div> 
+        </div> 
+      </div> 
+      <div class="col"> 
+        <div class="card shadow-sm"> 
+         <img src="./pasonal touch image.jpg" alt="people carring ">
+         <h3>Contry Wide</h3>
+          <div class="card-body"> <p class="card-text">We offer a range of services to suit your individual needs, whether you're moving locally or across the country. Our team can handle everything from packing and loading to unloading and unpacking, so you can focus on settling into your new home. And with our transparent pricing and no hidden fees, you can trust that you're getting a fair and competitive rate for our services.</p> 
+            <div class="d-flex justify-content-between align-items-center"> 
+              <div class="btn-group"> 
+                <button type="button" class="btn btn-sm btn-outline-secondary">Get a Quote</button> 
+                
+              </div> 
+            </div> 
+          </div> 
+        </div> 
+      </div> 
+      <div class="col"> 
+        <div class="card shadow-sm"> 
+          <img src="./move it image.jpg" alt="moving it image">
+          <h3>Pasonal touch</h3>
+           <div class="card-body"> <p class="card-text">At our core, we believe that moving should be an exciting and positive experience, not a stressful one. By providing exceptional moving services in the US, we hope to revolutionize the way people think about moving and provide a better, more personalized experience for our customers. Contact us today to learn more about how we can help you with your next move.</p> 
+            <div class="d-flex justify-content-between align-items-center"> 
+              <div class="btn-group"> 
+                <button type="button" class="btn btn-sm btn-outline-secondary">Get a Quote</button> 
+                
+              </div> 
+              </section>
+
+  <section>
+      <div class="py-5 text-center containe">
+        <img src="./family.jpg" alt="family" height="400px" width="800px">
+      </div>
+     <footer class="py-3 my-4"> 
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3"> 
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li> 
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li> 
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li> 
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li> 
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li> 
+      </ul> 
+      <p class="text-center text-body-secondary">© 2025 Company, Inc</p> 
+    </footer>
+   </main>
+              
+        
+
+
+
+
+  
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+</body>
+
+</html>
